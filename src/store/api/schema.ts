@@ -10,3 +10,10 @@ export const rateSchema = z.object({
 });
 
 export const ratesSchema = z.array(rateSchema);
+
+export const historyRateSchema = z.object({
+    date: z.string(),
+    rate: z.coerce.number(),
+});
+
+export const historyRatesSchema = z.array(historyRateSchema);
