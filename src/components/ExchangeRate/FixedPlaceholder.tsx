@@ -7,4 +7,5 @@ export const FixedPlaceholder = styled.div`
     left: 0;
     right: 0;
     padding: 1.6rem 2rem 0;
+    z-index: 1;
 `;
